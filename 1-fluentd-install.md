@@ -33,3 +33,18 @@ $> sudo launchctl unload /Library/LaunchDaemons/td-agent.plist
 ```
 /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/fluentd-1.0.2/bin
 ```
+
+# Add Fluentd Path to $PATH
+1. Edit .zshrc
+```
+$> vi ~/.zshrc
+```
+2. Add the following line then save
+```
+export PATH=$PATH:/opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/fluentd-1.0.2/bin
+```
+3. Reboot the termial
+4. Test by following command
+```
+$> fluentd
+```
