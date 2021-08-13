@@ -23,3 +23,20 @@ $> brew services list
 ```
 $> brew services stop elastic/tap/elasticsearch-full
 ```
+# Configuration Path
+1. Data:
+```
+/usr/local/var/lib/elasticsearch/elasticsearch_[Host_Name]/
+```
+2. Logs:
+```
+/usr/local/var/log/elasticsearch/elasticsearch_[Host_Name].log
+```
+3. Plugins:
+```
+/usr/local/var/elasticsearch/plugins/
+```
+4. Config:
+```
+/usr/local/etc/elasticsearch/
+```
