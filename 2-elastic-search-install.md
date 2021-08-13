@@ -1,4 +1,4 @@
-#Elastic Search Installation
+# Elastic Search Installation
 1. Add new tap to HomeBrew for elastic/tap
 ```
 $> brew tap elastic/tap
