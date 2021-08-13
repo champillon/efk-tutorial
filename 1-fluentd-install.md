@@ -24,7 +24,12 @@ $> curl -X POST -d 'json={"json":"message"}' http://localhost:8888/debug.test
 $> sudo launchctl unload /Library/LaunchDaemons/td-agent.plist
 ```
 
-# Fluentd Configuration Path
+# Configuration Path
+1. td-agent Configuration:
 ```
 /etc/td-agent/td-agent.conf 
+```
+2. Fluentd Binary:
+```
+/opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/fluentd-1.0.2/bin
 ```
